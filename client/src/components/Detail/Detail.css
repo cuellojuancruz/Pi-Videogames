@@ -1,0 +1,64 @@
+.Detail{
+    padding: 5px;
+    color: blueviolet;
+    display: grid;
+    grid-template-columns: 59% 31%;
+    grid-template-rows:   repeat(4, 25%);
+    width: 190vh;
+}
+
+.IMG{
+    display: grid;
+    grid-column: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    
+}
+
+.Todo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+}
+
+.NameReleased{
+    background-color: black;
+    display: grid;
+    grid-column: 1;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.GenresPlatform{
+    background-color: black;
+    display: grid;
+    grid-column: 1;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.Description{
+    background-color: black;
+    display: grid;
+    grid-column: 1;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.Rating{
+    display: grid;
+    grid-column: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.Button{
+    margin-bottom: 10px;
+    background-color: black;
+    color: blueviolet;
+}
+
+.Button:hover{
+    box-shadow: 4px 4px 5px white;
+}

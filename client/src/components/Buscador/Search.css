@@ -1,0 +1,19 @@
+.Search{
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+    margin-right: 10%;
+    margin-left: 2%;
+    color: blueviolet;
+    background-color: black;
+    border-radius: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    border-color: white;
+}
+
+.Input{
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+}

@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,6 +6,54 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background-repeat: no-repeat; */
+  background-position: 80% center;
+  min-height: 100vh;
+  background-color: black;
+  overflow-x: hidden;
+  background-image: url("https://www.nawpic.com/media/2020/ps4-nawpic-6.jpg");
+}
+
+.Home-Header{
+  height: 150px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 20px;
+  font-size: 40px;
+  background-image: url("https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/gallery/5e2085845bafe8c706da670d/videojuego-pacman.jpg");
+  background-position: center 80%;
+  background-size: 300px;
+}
+/* 
+.Home-Header a{
+  font-family: "Arial black";
+  font-size: 2.5rem;
+  outline: none;
+} */
+
+.Home-Title{
+  font-family: "Arial black";
+  font-size: 2.5rem;
+  outline: none;
+}
+
+.Home-Main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 150px);
+  gap: 200px ;
+}
+
+.Home-Main img{
+  height: 350px;
+  border-radius: 20px;
+}
+
+.Home{
+  background-color: black;
 }
 
 code {

@@ -1,0 +1,31 @@
+.NavBar{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(95, 32, 155);
+    width: 100vw;
+}
+
+.NavBar a{
+    text-decoration: none;
+}
+
+.Button, .Select{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: auto;
+    height: 40px;
+    border-color: white;
+    border-radius: 10px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-transform:uppercase;
+    font-size: 11px;
+    font-weight:bold;
+    text-decoration:none;
+    background-color: black;
+    color: blueviolet;
+    border-style: solid;
+}
